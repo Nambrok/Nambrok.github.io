@@ -148,19 +148,11 @@ footer p {
 		margin-left: 0%;
 		padding-left: 10px;
 	}
-	nav .ppSections{
-		float: left;
-		
-	}
 }
 
 @media (min-width: 1024px){
 	nav{
 		margin-left: 25%;
-	}
-	
-	nav .ppSections{
-		float: none;
 	}
 }
 
