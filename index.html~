@@ -1,0 +1,36 @@
+<!doctype HTML>
+<html>
+	<head>
+		<title>Site perso</title>
+		<meta charset= UTF-8>
+		<link rel='stylesheet' href='./css/style.css' type='text/css' />
+	</head>
+	<body>
+		
+<section id= "title">
+	<h2>Bienvenue sur le site de Damien Thenot.</h2>
+</section>
+	<nav id="menuindex">
+		<ul>
+			<li><a href="./index.html">Index</a></li>
+			<ul class="liensInternes"><li><a href=#presentation>Mes informations</a></li></ul>
+			<li><a href="./cv.html">CV</a></li>
+			
+		</ul>
+	</nav>
+<section id= "presentation">
+		<h2>Mes informations</h2>
+	<img src="youtube_profile.jpg"/>
+		<ul>
+			<li><strong>Thénot Damien</strong>, né le 15/05/1995</li>
+			<li>Vous pouvez me joindre par mail  à l'adresse : damien.thenot@gmail.com</li>
+			<li>Etudiant à l'université de Versailles St. Quentin en license d'informatique.</li>
+			<li>Je code en <a href="http://openclassrooms.com/courses/apprenez-a-programmer-en-java">Java</a>, <a href = "http://defeo.lu/in202/">HTML</a> et <a href = "http://openclassrooms.com/courses/apprenez-a-programmer-en-c">C</a>.</li>
+			<li>Mes loisirs sont les jeux-vidéos, les comics et la programmation.</li>
+		</ul>
+</section>
+	<footer>
+		<p>&copy; Damien Thénot février 2015</p>  
+	</footer>
+	</body>
+</html>

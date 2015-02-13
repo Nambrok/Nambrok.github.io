@@ -1,0 +1,173 @@
+section {
+	border-style: groove;
+	border-color: black;
+	border-width: 2px;
+	width: 460px;
+	border-radius: 10%;
+	margin-left: 25%;
+}
+
+nav {
+	border-style: groove;
+	border-color: black;
+	border-width: 2px;
+	width: 460px;
+	border-radius: 10%;
+	margin-left: 25%;
+}
+
+#title {
+	background-color: grey;
+	margin-bottom: 1cm;
+}
+
+
+#title h2 {
+	margin-left: 19px;
+}
+
+
+#menuindex{
+	border-style: none;
+	font-size: 15px;
+	background-color: lightgrey;
+}
+
+
+
+#menuindex ul{
+	list-style-type: none;
+}
+
+#presentation {
+	margin-left: 23%;
+	display: inline-block;
+	border-color: red;
+	border-top-right-radius: 40%;
+	border-bottom-left-radius: 23%;
+	border-top-left-radius: 12%;
+	border-bottom-right-radius: 12%;
+	padding: 5px;
+	padding-bottom: 1cm;
+}
+
+#presentation h2 {
+	text-align: center;
+	font-size: 200%; 
+}
+
+#presentation img {
+	height: 240px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	float: left;
+}
+
+#presentation ul {
+	list-style-type: none;
+}
+
+#presentation li {
+	margin: 5px;
+}
+
+
+footer {
+	border-top-style: groove;
+	border-top-width: 1px;
+	border-top-color: black;
+	padding-left: 0px;
+	margin-top: 20px;
+
+}
+
+footer p {
+	font-family: "Arial";
+	text-align: center;
+	margin-top: 2px;
+	font-size: 10px;
+}
+
+
+
+
+#menucv {
+	font-size: 15px;
+	background-color: lightgrey;
+}
+
+#menucv ul{
+	list-style-type: none;
+}
+
+#donnees {
+	margin-top: 2cm;
+	margin-bottom: 2cm;
+}
+
+#etudes {
+	margin-top: 2cm;
+	margin-bottom: 2cm;
+}
+
+#menucv #indexexp{
+	display: none;
+}
+#experiences {
+	display: none;
+}
+
+
+
+@media (max-width: 400px){
+	nav {
+		display: inline;
+		margin-left: 0%;
+	}
+
+	nav .liensInternes{
+		display: none;
+	}
+
+}
+
+@media (min-width: 400px){
+	nav {
+		display:block;
+		margin-left: 25%;
+	}
+	
+	nav .liensInternes{
+		display: block;
+	}	
+	
+}
+
+@media (max-width: 1024px){
+	nav{
+		margin-left: 0%;
+		padding-left: 10px;
+	}
+	nav .ppSections{
+		float: left;
+		
+	}
+}
+
+@media (min-width: 1024px){
+	nav{
+		margin-left: 25%;
+	}
+	
+	nav .ppSections{
+		float: none;
+	}
+}
+
+:link{
+	text-decoration: none;	
+}
+
+:link:hover{
+	text-decoration: underline;
+}
