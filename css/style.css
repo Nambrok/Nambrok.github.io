@@ -16,6 +16,8 @@ nav {
 	margin-left: 25%;
 }
 
+
+
 #title {
 	background-color: grey;
 	margin-bottom: 1cm;
@@ -88,9 +90,6 @@ footer p {
 	font-size: 10px;
 }
 
-
-
-
 #menucv {
 	font-size: 15px;
 	background-color: lightgrey;
@@ -160,11 +159,12 @@ footer p {
 	text-decoration: none;
 	border-style: none;
 	background-color: none;
+	color: black;
 }
 
 :link:hover{
 	padding: 2px;
 	border-style: groove;
-	border-color: blue;
+	border-color: black;
 	border-width: 1px;
 }
